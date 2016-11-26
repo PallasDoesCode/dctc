@@ -3,28 +3,27 @@
 body {
 	margin:0px;
 	}
-	
+
 td {
-	font:11px arial;
 	color:#99CCFF;
 	}
-	
+
 hr {
-	height:1px; 
+	height:1px;
 	color: #cccccc;
 	border: none;
 	}
-	
+
 a {
 	color: #CC3300;
 	text-decoration:underline;
 	}
-	
+
 a:hover {
 	color: #FF3300;
 	text-decoration:none;
 	}
-	
+
 /* ID Styles */
 
 #navigation a {
@@ -37,17 +36,17 @@ a:hover {
 	display:block;
 	padding:10px;
 	border: 1pt solid rgb(20,40,95);
-	border-right-width: 0px; 
-	border-left-width: 0px; 
+	border-right-width: 0px;
+	border-left-width: 0px;
 	}
-	
+
 #navigation a:hover {
 	color:#ffffff;
 	border: 1pt dotted red;
-	border-right-width: 0px; 
-	border-left-width: 0px; 
+	border-right-width: 0px;
+	border-left-width: 0px;
 	}
-	
+
 #sidebarHeader {
 	padding: 0px 4px 14px 4px;
 	}
@@ -65,7 +64,7 @@ a:hover {
 	line-height:18px;
 	letter-spacing:.4em;
 	}
-	
+
 #dateformat a {
 	color:#99CCFF;
 	font:11px georgia;
@@ -74,7 +73,7 @@ a:hover {
 	text-decoration:none;
 	font-weight:bold;
 	}
-	
+
 #dateformat a:hover {
 	color: #ffffff;
 	}
@@ -88,42 +87,42 @@ a:hover {
 	letter-spacing:.1em;
 	margin-top:0px;
 	}
-	
+
 .pageName{
 	font:22px georgia;
 	color: #CC3300;
 	line-height:20px;
 	letter-spacing:.1em;
 	}
-	
+
 .subHeader {
 	font:16px georgia;
 	color: #CC3300;
 	font-weight:bold;
 	letter-spacing:.1em;
 	line-height:16px;
-	}	
-	
+	}
+
 .sidebarHeader {
 	font:14px georgia;
 	color: #99CCFF;
 	font-weight:bold;
 	letter-spacing:.1em;
 	line-height:16px;
-	}	
-	
+	}
+
 .detailText {
 	font:11px arial;
 	color:#ffffff;
 	line-height:16px;
 	letter-spacing:.1em;
 	}
-	
+
 .smallText {
 	font:10px arial;
 	color:#99CCFF;
 	}
-	
+
 
 	.style12 {
 }

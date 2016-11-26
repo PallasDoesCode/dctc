@@ -1,0 +1,63 @@
+/* make sidebar nav vertical */
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+  }
+  .sidebar-nav .navbar ul:not {
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+
+
+/* Navigation Menu */
+.navbar-header, .navbar > div.navbar-header > span {
+    background-color: #2F3F4F;
+    color: #FFFFFF;
+}
+
+.navbar > div.navbar-header > button, .navbar > div.navbar-header > button:hover,
+.navbar > div.navbar-header > button:focus {
+    background-color: #2F3F4F;
+    border-color: #000000;
+}
+
+.navbar-default .navbar-toggle .icon-bar  {
+    background-color: #FFFFFF;
+}
+
+.navbar-collapse > .navbar-nav > li > a {
+    background-color: #2F3F4F;
+    color: #FFFFFF;
+}
+
+.navbar-collapse > .navbar-nav > li.active > a {
+    background-color: #1C242E;
+    color: #FFFFFF;
+}
+
+
+
+/* Tyler's Custom Styling */
+.align-center {
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  width: 600px;
+}

@@ -1,0 +1,97 @@
+    .style1 {
+      font-size: xx-large
+    }
+
+    .style3 {
+      font-size: 22px;
+      font-family: "Bodoni MT Black", "Bodoni MT Poster Compressed", "Script MT Bold";
+      color: #FFFFFF;
+      font-weight: bold;
+    }
+
+    .style6 {
+      font-size: 24px;
+      color: #FF0000;
+    }
+
+    .style7 {
+      font-size: 55px;
+      color: #FF0000;
+      font-family: "Times New Roman", Times, serif;
+      font-style: italic;
+      font-weight: bold;
+    }
+
+    .style11 {
+      font-size: 36px;
+      font-family: "Script MT Bold";
+      color: #FFFFFF;
+    }
+
+    .style12 {
+      font-size: 20px;
+      font-weight: bold;
+      color: #FF0000;
+    }
+
+    .style19 {
+      font-size: 22px;
+      font-family: "Script MT Bold";
+      color: #FF0000;
+    }
+
+    body {
+      background-image: url();
+      background-color: #FFFFFF;
+      background-repeat: repeat;
+    }
+
+    .style22 {
+      font-size: 35px;
+      color: #FF0000;
+      font-style: italic;
+      font-family: "Lucida Calligraphy";
+      font-weight: bold;
+    }
+
+    .style25 {
+      color: #000099;
+      font-size: 20px;
+      font-weight: bold;
+      font-style: italic;
+    }
+
+    .style27 {
+      font-size: 14px;
+    }
+
+    .style31 {
+      color: #FF0000;
+      font-size: 18px;
+    }
+
+    .style34 {
+      font-size: 26px;
+      font-family: "Script MT Bold";
+      color: #FFFFFF;
+    }
+
+    .style37 {
+      font-size: 55px;
+      color: #FFFFFF;
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      font-style: italic;
+      font-weight: bold;
+    }
+
+    a:link {
+      color: #0033FF;
+    }
+
+    a:hover {
+      color: #FF0099;
+    }
+
+    .style38 {
+      font-size: x-large
+    }
