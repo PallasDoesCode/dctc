@@ -9,7 +9,7 @@
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/practice.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,42 +21,43 @@
   <body>
     <div class="container">
         <div class="row">
-            <div class="col-sm-3">
-                <div class="sidebar-nav">
-                    <nav class="navbar navbar-default" role="navigation">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <span class="visible-xs navbar-brand">DeKalb County Technology Center</span>
+            <div class="col-sm-3 col-md-3">
+                <div id="MainMenu">
+                    <div class="list-group panel">
+                        <a href="#classes" class="list-group-item" data-toggle="collapse" data-parent="#MainMenu">
+                            Classes
+                            <i class="fa fa-caret-down"></i>
+                        </a>
+                        <div class="collapse" id="classes">
+                            <a class="list-group-item">Auto Collision Repair Technology</a>
+                            <a class="list-group-item">Auto Service Technology</a>
+                            <a class="list-group-item">Cosmetology</a>
+                            <a class="list-group-item">Drafting</a>
+                            <a class="list-group-item">Healthcare & Medical Sciences</a>
+                            <a class="list-group-item">Masonry</a>
+                            <a class="list-group-item">Robotics & Industrial Electronics</a>
+                            <a class="list-group-item">Welding</a>
+                            <a class="list-group-item">Ag, Business, & FACS Classes</a>
+
                         </div>
-                        <div class="navbar-collapse collapse sidebar-navbar-collapse">
-                            <ul class="nav navbar-nav">
-                                <li class="active"><a href="#">Home</a></li>
-                                <li><a href="#">Auto Collission Repair Technology</a></li>
-                                <li><a href="#">Auto Service Technology</a></li>
-                                <li><a href="#">Cosmetology</a></li>
-                                <li><a href="#">Drafting</a></li>
-                                <li><a href="#">Healthcare</a></li>
-                                <li><a href="#">Masonry</a></li>
-                                <li><a href="#">Robotics and Industrial Electronics</a></li>
-                                <li><a href="#">Welding</a></li>
-                                <li><a href="#">Counselor</a></li>
-                                <li><a href="#">Career Coaches</a></li>
-                                <li><a href="#">Student Organizations</a></li>
-                                <li><a href="#">Upcoming Events/Contests</a></li>
-                                <li><a href="#">School/Contact Information</a></li>
-                                <li><a href="#">CTE Teachers Information Center</a></li>
-                                <li><a href="#">Credentialling</a></li>
-                                <li><a href="#">Fundraisers</a></li>
-                            </ul>
-                        </div> <!--/.nav-collapse -->
-                    </nav> <!-- .navbar-default -->
-                </div> <!-- .sidebar-nav -->
-            </div> <!-- .col-sm-3 -->
+                        <a href="#" class="list-group-item" data-parent="#MainMenu">Counselor</a>
+                        <a href="#" class="list-group-item" data-parent="#MainMenu">Career Coaches</a>
+                        <a href="#" class="list-group-item" data-parent="#MainMenu">Student Organizations</a>
+                        <a href="#" class="list-group-item" data-parent="#MainMenu">Calendar</a>
+                        <a href="#" class="list-group-item" data-parent="#MainMenu">Contact</a>
+                        <a href="#" class="list-group-item" data-parent="#MainMenu">Dual-Credit Courses</a>
+                        <a href="#" class="list-group-item" data-parent="#MainMenu">Credentialling</a>
+                        <a href="#" class="list-group-item" data-parent="#MainMenu">Fundraisers</a>
+
+                        <a href="#demo4" class="list-group-item" data-toggle="collapse" data-parent="#MainMenu">Item 4  <i class="fa fa-caret-down"></i></a>
+                        <div class="collapse" id="demo4">
+                            <a href="" class="list-group-item">Subitem 1</a>
+                            <a href="" class="list-group-item">Subitem 2</a>
+                            <a href="" class="list-group-item">Subitem 3</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="col-sm-9">
                 <h1 class="text-center">Welcome to the<br />DeKalb County Technology Center</h1>
                 <p>
